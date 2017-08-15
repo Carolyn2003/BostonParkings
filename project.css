@@ -1,0 +1,40 @@
+h1{
+  font-size: 60px
+}
+
+img{
+  margin-right: auto;
+
+}
+body{
+  background-color: aqua;
+}
+#de{
+    float:left;
+}
+h3 {
+    float:right;
+}
+
+#ca{
+   float: left;
+   font-family: inherit;
+   }
+h4{
+  float:right;
+}
+
+body{5
+  background-color: aqua;
+
+
+}
+h3{
+  font-family: inherit;
+}
+#vi{
+  float: left;
+}
+h5{
+  float: right;
+}
