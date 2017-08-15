@@ -11,6 +11,7 @@ body{
 }
 #de{
     float:left;
+    font-family: serif;
 }
 h3 {
     float:right;
@@ -18,7 +19,8 @@ h3 {
 
 #ca{
    float: left;
-   font-family: inherit;
+   font-family: serif;
+
    }
 h4{
   float:right;
@@ -34,6 +36,7 @@ h3{
 }
 #vi{
   float: left;
+  font-family: serif;
 }
 h5{
   float: right;
