@@ -1,0 +1,31 @@
+h1{
+  font-size: 75px;
+}
+
+body{
+  background-color: aqua;
+}
+h2{
+
+  font-size: 40px;
+  font-family: georgia;
+}
+p{
+  font-size: 20px;
+}
+img{
+  border: 3px solid black;
+  height:500px;
+  width:420px;
+}
+
+
+/*img{
+    animation:.9s rotateRight infinite linear;
+    margin:auto;
+}
+
+@keyframes rotateRight{
+    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(360deg); }
+}/*
