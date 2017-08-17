@@ -24,8 +24,6 @@ h1{
 #i{
   margin-right: auto;
     border: 2px solid black;
-    height:340px;
-    width:420px;
     cursor: pointer;
     transition-property:background,border-radius;
     transition-duration:1s;
@@ -52,7 +50,7 @@ h3 {
 
 #ca{
    float: left;
-   font-family: serif;
+   font-family: arial;
 
    }
 h4{
@@ -70,7 +68,7 @@ h5{
   float: right;
 }
 p{
-  font-size:30px;
+  font-size:25px;
   color: white;
 }
 p1 {
@@ -101,4 +99,8 @@ left: 0;
 0%  { top: 0px; }
 20% { top: -50px; }
 80% { top: -100px; }
+}
+p2{
+  font-size: 30px;
+  color:white;
 }
