@@ -23,7 +23,7 @@ to{opacity: .0;}
 
 body{
   background-image: url("http://wheatoncollege.edu/about/wp-content/blogs.dir/5/files/bostonslideshow/boston_skyline.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -36,10 +36,14 @@ h2{
   font-family: georgia;
   color:white;
 }
+
+.no-italics {
+    font-style: normal;
+}
 p{
   font-size: 30px;
   color:white;
-  font-family: arial;;
+  font-family: arial;
 }
 img{
   border: 3px solid black;
