@@ -43,7 +43,6 @@ h2{
 p{
   font-size: 30px;
   color:white;
-  font-family: arial;
 }
 img{
   border: 3px solid black;
@@ -89,6 +88,7 @@ left: 0;
 20% { top: -50px; }
 80% { top: -100px; }
 }
+
 /*#azul{
 
 }
