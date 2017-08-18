@@ -2,96 +2,86 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="parkings_home.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<title>Boston Parkings Home</title>
+
 	</head>
 	<body>
 		<div class="topnav" id="myTopnav">
 			<a href="parkings_home.html">Home</a>
-	 		<a href="about_us.html">About Us</a>
 	  		<a href="info.html">Information</a>
-	  		<div class="SearchBar">
-				<form>
-				 	<input type="text" placeholder="Search for page..." required>
-				</form>
-			</div>
+	  		<a href="parkings.html">Parking Spaces</a>
+	  		<a href="about_us.html">About Us</a>
+
 	  	</div>
-	  	<h1><i><b>Boston Parking</b></i></h1>
-	  	<div id="googleMap" style="width:100%;height:900px;"></div>
+	  	<div class="container">
+		  <div style="background:transparent" class="jumbotron">
+		    <h1 class = "mytitle">Boston Parking</h1>      
+		    <p>Don't waste time. Find the parkings spots closest to your destination in Boston.</p>
+		  </div>     
+		</div>
 
-			<script>
-			function myMap() {
-			var mapProp= {
-			    center:new google.maps.LatLng(42.3601,-71.0589),
-			    zoom:10,
-			};
-			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-			}
-			</script>
+	  	<!--bootstrap navbar code
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			</head>
+			<body>
 
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBzdmBNoUFOnflnsmzwvQSoNeWMyU_AYc&callback=myMap"></script>	  	<p1><h2>Parking Spaces:</h2></br>
-			<h3>
-			40 Beach St. - Garage</br>
-			660 Washington St. - Garage</br>
-			47 Boylston St. - Ritz Carlton Garage</br>
-			88 Kingston St. - State Street Financial Center Garage</br>
-			45 Stuart St. - AVA Theater District - Valet</br>
-			99 Kneeland St. - One Greenway Garage</br>
-			1 Avenue de Lafayette - Lafayette Garage</br>
-			24 Kingston St. (99 Summer Garage)</br>
-			17-23 West St. - Lot</br>
-			821 Washington St. - DoubleTree - Valet Garage</br>
-			200 Stuart St. - Garage</br>
-			201 Stuart St. - Motor Mart Garage</br>
-			33 Arch St. - Garage</br>
-			100 High St. - Garage</br>
-			45 Province St. - Valet Garage</br>
-			1 Federal St. - Garage</br>
-			280 Congress St. - Garage</br>
-			Pi Alley - Garage</br>
-			94 Pearl St. (225 Franklin St. - Garage)</br>
-			One Post Office Square - Garage</br>
-			10 St James Ave. - Garage</br>
-			115 Purchase St. (125 High St.) - Garage</br>
-			Center Plaza - Garage</br>
-			10 Necco St. - Garage</br>
-			75 State St. - Garage</br>
-			400 Stuart Street - Clarendon Garage/Valet</br>
-			500 Boylston St. - Back Bay Garage</br>
-			17 Farnsworth St. - Farnsworth Garage</br>
-			30 Rowes Wharf - Rowes Wharf Garage</br>
-			70 Sleeper St. - The Envoy Hotel Valet Stand</br>
-			100 Clarendon St. - Garage</br>
-			11 Stillings St. - Garage</br>
-			116 W 1st St. - Channel Center Garage</br>
-			Government Center Garage</br>
-			144 Charles St. - Valet</br>
-			131 Dartmouth St. - Garage</br>
-			34 Cooper St. - Cooper Street Lot</br>
-			47 Huntington Ave. - Copley Square Hotel Valet</br>
-			100 Huntington Ave. - Copley Place Garage</br>
-			61 Exeter St. - Lenox Hotel - Valet Garage</br>
-			121 Nashua St. - North Station Garage</br>
-			110 Huntington Ave. - Marriott Copley Place Valet Garage</br>
-			377 D St. - Lot D-3</br>
-			776 Boylston St. - Mandarin Oriental - Valet Lot</br>
-			181 N Washington St. - Valet Lot</br>
-			54 Hull St. - North End Garage - 4th Floor</br>
-			7 Durham St. - Personal Spot</br>
-			2 Battery Wharf - Garage</br>
-			269 Commonwealth Ave. - Lot</br>
-			553 Columbus Ave. - Personal Spot - Spot #4</br>
-			39 Dalton St. - Sheraton Boston Hotel Valet</br>
-			270 Northern Ave. - Valet</br>
-			1 Constitution Rd. - Constitution Center - Lot</br>
-			35 Westland Ave. - Garage</br>
-			88 Constitution Rd. - Nautica Garage</br>
-			</h3>
-			</p1>
-	 	<script src="parkings_home.js"></script>
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#">WebSiteName</a>
+			    </div>
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="#">Home</a></li>
+			      <li><a href="#">Home</a></li>
+			      <li><a href="#">About Us</a></li>
+			      <li><a href="#">Info</a></li>
+			    </ul>
+			  </div>
+			</nav>-->
+
+		<input id="origin-input" class="controls" type="text"
+	    placeholder="Enter an origin location">
+
+		<input id="destination-input" class="controls" type="text"
+		    placeholder="Enter a destination location">
+
+		<div id="mode-selector" class="controls">
+		  <input type="radio" name="type" id="changemode-walking" checked="checked">
+		  <label for="changemode-walking">Walking</label>
+
+		  <input type="radio" name="type" id="changemode-transit">
+		  <label for="changemode-transit">Transit</label>
+
+		  <input type="radio" name="type" id="changemode-driving">
+		  <label for="changemode-driving">Driving</label>
+		</div>
+
+		<div id="map"></div>
+		<!-- Replace the value of the key parameter with your own API key. -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBzdmBNoUFOnflnsmzwvQSoNeWMyU_AYc&libraries=places&callback=initMap"
+		        async defer></script>
+			<script src="directions.js"></script>
 	</body>
 </html>
 
 <!--AIzaSyBBzdmBNoUFOnflnsmzwvQSoNeWMyU_AYc
 
-AIzaSyCNdCaUyNU-7OGqT4h6uDR-Gf9lXYitdTE-->
+AIzaSyCNdCaUyNU-7OGqT4h6uDR-Gf9lXYitdTE
+
+
+function initAutocomplete() {
+	var map=new google.maps.Map(document.getElementById("googleMap"), {
+	enter:new google.maps.LatLng(42.3601,-71.0589),
+	zoom:10,
+	mapTypeId: 'roadmap'
+	}
+		AIzaSyAv77I81l5oCK4iO9MNxWEkLT3oJulGQGI	
+		boston pic: http://www.photoguide.to/wp-content/uploads/2015/10/boston.jpg
+}-->
+
 

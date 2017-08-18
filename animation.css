@@ -23,7 +23,7 @@ to{opacity: .0;}
 
 body{
   background-image: url("http://wheatoncollege.edu/about/wp-content/blogs.dir/5/files/bostonslideshow/boston_skyline.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -35,6 +35,10 @@ h2{
   font-size: 40px;
   font-family: georgia;
   color:white;
+}
+
+.no-italics {
+    font-style: normal;
 }
 p{
   font-size: 30px;
@@ -74,18 +78,17 @@ position: relative;
 white-space: nowrap;
 top: 0;
 left: 0;
--webkit-animation: move 5s;
+-webkit-animation: move 4s;
 -webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 3s;
+-webkit-animation-delay: 2s;
 }
 
 @keyframes move {
 0%  { top: 0px; }
 20% { top: -50px; }
-40% { top: -100px; }
-60% { top: -150px; }
-80% { top: -200px; }
+80% { top: -100px; }
 }
+
 /*#azul{
 
 }
