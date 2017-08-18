@@ -1,11 +1,12 @@
 body{
-    background-color: aqua;
+    background-image: url(boston.jpg);
 }
 h1 {
-    color: cyan;
     text-align: center;
     font-size: 75px;
+    background-color:aqua;
 }
+
 
 h2 {
     color: black;
@@ -17,6 +18,9 @@ h3 {
 	color: black;
 	text-align: center;
 	font-size: 17px;
+}
+p {
+    color: cyan;
 }
 
 .topnav {
@@ -45,6 +49,15 @@ h3 {
 .topnav a.active {
     background-color: ##2E2EFE;
     color: white;
+}
+
+.jumbotron {
+    background-color:aqua;
+    text-align:center;
+    color:cyan;
+    padding: 5em inherit;
+
+
 }
 
 /*.SearchBar {
