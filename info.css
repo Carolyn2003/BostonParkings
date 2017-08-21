@@ -5,7 +5,7 @@ margin: 10px 0 0 10px;
 white-space: nowrap;
 overflow: hidden;
 width: 20em;
-animation: type 4s steps(30, end);
+animation: type 3s steps(30, end);
 font-family:Arial;
 background-color: aqua;
 }
@@ -42,7 +42,7 @@ h2{
 p{
   font-size: 30px;
   color:white;
-  font-family:Arial;
+  font-family:Times;
 }
 img{
   border: 3px solid black;
@@ -73,13 +73,13 @@ b {
   height: 50px;
 }
 span1 {
- display: inline-block;
+display: inline-block;
 color: cyan;
 position: relative;
 white-space: nowrap;
 top: 0;
 left: 0;
--webkit-animation: move 4s;
+-webkit-animation: move 7s;
 -webkit-animation-iteration-count: infinite;
 -webkit-animation-delay: 2s;
 }
@@ -111,6 +111,10 @@ left: 0;
 .topnav {
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
 }
 
 /* Style the links inside the navigation bar */
@@ -136,7 +140,7 @@ left: 0;
     color: white;
 }
 
-.SearchBar {
+/*.SearchBar {
      position: absolute;
      top: 0px;
      right: 0px;
@@ -146,13 +150,13 @@ left: 0;
   font-size: 30px;
   height: 59px;
   width: 600px;
-}
-html, body {
+
+}*/
+/*html, body {
         height: 100%;
         margin: 0;
         padding: 0;
-      }
-
+      }*/
 /*img{
     animation:.9s rotateRight infinite linear;
     margin:auto;
