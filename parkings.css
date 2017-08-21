@@ -21,7 +21,7 @@ h2 {
   white-space: nowrap;
   overflow: hidden;
   width: 20em;
-  animation: type 7s steps(70, end);
+  animation: type 3s steps(70, end);
   font-family: Arial;
 
   }
@@ -37,12 +37,19 @@ h2 {
   to{opacity: .0;}
   }
 
-h3 {
-    color: yellow;
-    text-align: center;
-    font-size: 20px;
-}
 
+.p2 {
+  color:white;
+  background:black;
+  text-align:center;
+  font-size: 20px;
+  background-color: black;
+  border:25px solid yellow;
+  padding:20px;
+  margin:500px;
+  position:absolute;
+    top:-250px;
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -77,3 +84,35 @@ html, body {
         padding: 0;
 
     }
+
+
+ p1 {
+  font-size:20px;
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+  color:yellow;
+}
+c {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+span1 {
+display: inline-block;
+color: cyan;
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 7s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 2s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+80% { top: -100px; }
+}
