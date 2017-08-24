@@ -14,15 +14,15 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 75px;
-  color: black;
+  font-size: 70px;
   background-color: aqua;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
   width: 20em;
-  animation: type 3s steps(70, end);
-  font-family: Arial;
+  animation: type 3s steps(30, end);
+  font-family: arial;
+  color:#303030;
 
   }
   span{
@@ -45,14 +45,21 @@ h2 {
   font-size: 20px;
   background-color: black;
   border:25px solid yellow;
-  padding:20px;
-  margin:500px;
+  padding:50px;
+  margin:530px;
   position:absolute;
-    top:-250px;
+    top:-200px;
+  overflow: hidden;
+  z-index:1;
 }
 .topnav {
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index:2;
 }
 
 /* Style the links inside the navigation bar */
@@ -78,12 +85,7 @@ h2 {
     color: white;
 }
 
-html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
 
-    }
 
 
  p1 {
@@ -92,12 +94,14 @@ html, body {
   float: left;
   margin-right: 0.3em;
   color:yellow;
+  margin-left:60px;
 }
 c {
   float: left;
   overflow: hidden;
   position: relative;
   height: 50px;
+  font-size: 15px;
 }
 span1 {
 display: inline-block;

@@ -3,8 +3,9 @@ body{
 }
 h1 {
     text-align: center;
-    font-size: 75px;
+    font-size: 70px;
     background-color:aqua;
+    font-family: arial;
 }
 
 
@@ -37,6 +38,7 @@ p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+    font-family: Times;
 }
 
 /* Change the color of links on hover */
@@ -56,6 +58,8 @@ p {
     text-align:center;
     color:cyan;
     padding: 5em inherit;
+    font-family: Arial;
+    font-size: 75px;
 
 
 }
@@ -107,7 +111,7 @@ html, body {
 #origin-input,
 #destination-input {
   background-color: #fff;
-  font-family: Roboto;
+  font-family: Arial;
   font-size: 15px;
   font-weight: 300;
   margin-left: 12px;
