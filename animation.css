@@ -1,0 +1,107 @@
+h1{
+font-size: 75px;
+color: black;
+margin: 10px 0 0 10px;
+white-space: nowrap;
+overflow: hidden;
+width: 20em;
+animation: type 4s steps(30, end);
+font-family:Arial;
+background-color: aqua;
+}
+
+span{
+animation: blink 1s infinite;
+}
+
+@keyframes type{
+from { width: 0; }
+}
+
+@keyframes blink{
+to{opacity: .0;}
+}
+
+
+body{
+  background-image: url("boston.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  background-color: #464646;
+  position: absolute;
+}
+h2{
+  text-align: left;
+  font-size: 40px;
+  font-family: arial;
+  color:white;
+}
+
+p{
+  font-size: 30px;
+  color:white;
+  font-family:Times;
+}
+img{
+  border: 3px solid black;
+  height:500px;
+  width:400px;
+  cursor: pointer;
+  transition-property:background,border-radius;
+  transition-duration:1s;
+  transition-timing-function: linear;
+}
+img:hover{
+  border-radius: 50%;
+}
+body {
+  padding: 2em 5em;
+}
+p1 {
+  font-size:20px;
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+  color:yellow;
+}
+b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+span1 {
+ display: inline-block;
+color: cyan;
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 4s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 2s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+80% { top: -100px; }
+}
+
+
+/*#azul{
+
+}
+
+
+/*img{
+    animation:.9s rotateRight infinite linear;
+    margin:auto;
+}
+
+@keyframes rotateRight{
+    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(360deg); }
+}/*
